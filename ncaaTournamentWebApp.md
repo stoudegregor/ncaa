@@ -2,33 +2,33 @@
 
 ## Structure
 Currently built based on the flask tutorial. Will update based on the apps need.
-├── ncaa/
-│   ├── __init__.py
-│   ├── db.py
-│   ├── schema.sql
-│   ├── auth.py
-│   ├── blog.py
-│   ├── templates/
-│   │   ├── base.html
-│   │   ├── auth/
-│   │   │   ├── login.html
-│   │   │   └── register.html
-│   │   └── blog/
-│   │       ├── create.html
-│   │       ├── index.html
-│   │       └── update.html
-│   └── static/
-│       └── style.css
-├── tests/
-│   ├── conftest.py
-│   ├── data.sql
-│   ├── testFactory.py
-│   ├── testDb.py
-│   ├── testAuth.py
-│   └── testBlog.py
-├── venv/
-├── setup.py
-└── MANIFEST.in
+|-- ncaa/
+|   |-- __init__.py
+|   |-- db.py
+|   |-- schema.sql
+|   |-- auth.py
+|   |-- blog.py
+|   |-- templates/
+|   |   |-- base.html
+|   |   |-- auth/
+|   |   |   |-- login.html
+|   |   |   |-- register.html
+|   |   |--blog/
+|   |       |-- create.html
+|   |       |-- index.html
+|   |       |-- update.html
+|   |-- static/|
+|       |-- style.css
+|-- tests/
+|   |-- conftest.py
+|   |-- data.sql
+|   |-- testFactory.py
+|   |-- testDb.py
+|   |-- testAuth.py
+|   |-- testBlog.py
+|-- venv/
+|-- setup.py
+|-- MANIFEST.in
 
 
 ## Tables
