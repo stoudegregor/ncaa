@@ -2,6 +2,7 @@
 
 ## Structure
 Currently built based on the flask tutorial. Will update based on the apps need.
+```
 |-- ncaa/
 |   |-- __init__.py
 |   |-- db.py
@@ -29,7 +30,7 @@ Currently built based on the flask tutorial. Will update based on the apps need.
 |-- venv/
 |-- setup.py
 |-- MANIFEST.in
-
+```
 
 ## Tables
 A map of the tables needed to store and provide bets to users.
