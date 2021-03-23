@@ -1,5 +1,10 @@
 # NCAA Tournament Web App
 
+## Notes
+* Need to identify what databases work the best with flask, for medium usage
+* Test using SQAlchemy to interact with the db
+* Continue interpreting what tables will be needed and what should be captured per table
+
 ## Structure
 Currently built based on the flask tutorial. Will update based on the apps need.
 ```
