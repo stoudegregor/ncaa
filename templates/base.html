@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{% if title %}
+		<title>{{ title }} - NCAA Tournament Challenge</title>
+		{% else %}
+		<title>Welcome to the NCAA Tournament Challenge</title>
+		{% endif %}
+	</head>
+	<body>
+		<div>NCAA Tourney: <a href="/home">Home</a></div>
+		<hr>
+		{% block content %}{% endblock %}
+	</body>
+</html>
+
